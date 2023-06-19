@@ -49,6 +49,7 @@ const api = {
             {(typeof weather.main != 'undefined') ? (
                 <div>
             <div className='locationbox'>
+                <h1>habeeb</h1>
                 <div className='location'> {weather.name},{weather.sys.country}</div>
                     <div className='date'>
                    {dateBuilder(new Date())}
